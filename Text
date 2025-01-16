@@ -1,0 +1,5 @@
+notes - Arghya Pal
+11:56
+from nltk.tokenize.treebank import TreebankWordDetokenizer
+TreebankWordDetokenizer().detokenize(['the', 'quick', 'brown'])
+# 'The quick brown'
