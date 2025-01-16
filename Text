@@ -3,3 +3,7 @@ notes - Arghya Pal
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 TreebankWordDetokenizer().detokenize(['the', 'quick', 'brown'])
 # 'The quick brown'
+
+
+pip install nlt k 
+and we can use the nlt k library 
