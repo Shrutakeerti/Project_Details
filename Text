@@ -7,3 +7,12 @@ TreebankWordDetokenizer().detokenize(['the', 'quick', 'brown'])
 
 pip install nlt k 
 and we can use the nlt k library 
+
+pip install nltk
+another way: >>> import nltk
+>>> import string
+>>> nltk.word_tokenize("I've found a medicine for my disease.")
+['I', "'ve", 'found', 'a', 'medicine', 'for', 'my', 'disease', '.']
+>>> tokens = nltk.word_tokenize("I've found a medicine for my disease.")
+>>> "".join([" "+i if not i.startswith("'") and i not in string.punctuation else i for i in tokens]).strip()
+"I've found a medicine for my disease."
