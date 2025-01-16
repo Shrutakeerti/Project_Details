@@ -16,3 +16,23 @@ another way: >>> import nltk
 >>> tokens = nltk.word_tokenize("I've found a medicine for my disease.")
 >>> "".join([" "+i if not i.startswith("'") and i not in string.punctuation else i for i in tokens]).strip()
 "I've found a medicine for my disease."
+
+
+sign language 
+Arghya Pal
+12:08
+Sign language project 1: https://github.com/AvishakeAdhikary/Realtime-Sign-Language-Detection-Using-LSTM-Model
+Arghya Pal
+12:18
+Sign language --> Detection/Recognition --> English word
+https://github.com/AvishakeAdhikary/Realtime-Sign-Language-Detection-Using-LSTM-Model?tab=readme-ov-file#demo
+Word to sentence?
+Arghya Pal
+12:19
+Words --> NLTK detokenizer --> sentence
+Stack overflow 
+
+open one google collab 
+IJCNN 
+Collab 
+code  collab - https://colab.research.google.com/drive/1CUIr08e-47hO4iZNdnBZIRnpjLK7Gd5Y
